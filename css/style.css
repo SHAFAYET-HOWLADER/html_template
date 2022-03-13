@@ -1,0 +1,230 @@
+/*----------+all common css start+---------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+li,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+/*----------+all common css end+---------*/
+
+/*----------+navbar css start+---------*/
+.nav_logo a img {
+    width: 50%;
+}
+
+.nav_items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_right ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu_right ul li a {
+    color: #1a0000;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.menu_right ul li a:hover {
+    color: #eb8072;
+    transition: all linear .4s;
+}
+
+.menu_right button {
+    background-color: #eb8072;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: all linear .4s;
+    border: 1px solid transparent;
+}
+
+.sign_up button {
+    background-color: #eb8072;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: all linear .4s;
+    border: 1px solid transparent;
+}
+
+.menu_right button:hover {
+    background-color: #fff;
+    color: #eb8072;
+    border: 1px solid #eb8072;
+    cursor: pointer;
+}
+
+.sign_up button:hover {
+    background-color: #fff;
+    color: #eb8072;
+    border: 1px solid #eb8072;
+    cursor: pointer;
+}
+
+/*----------+navbar css end+---------*/
+
+/*----------+banner css start+---------*/
+#banner {
+    padding: 100px 0px;
+}
+
+.banner_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_icon_flex {
+    display: flex;
+}
+
+.banner_left h1 {
+    color: #EB8072;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 62px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner_left {
+    flex: 1;
+}
+
+.banner_right {
+    flex: 1;
+}
+
+.banner_icon_flex {
+    padding: 20px 0px;
+}
+
+.icon_text h3 {
+    color: #282F4B;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.icon_text p {
+    color: rgba(40, 47, 75, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 28px;
+}
+
+.banner_right img {
+    width: 100%;
+}
+
+.sign_up button {
+    margin-top: 10px;
+}
+
+/*----------+banner css end+---------*/
+
+/*----------+clients part start+---------*/
+#clients {
+    background-color: #282F4B;
+}
+
+.clients_overly {
+    padding: 50px 0px;
+    background: rgba(0, 0, 0, 200);
+}
+
+#clients .clients_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#clients .clients_logo img {
+    opacity: 0.4;
+    transition: all linear .4s;
+}
+
+#clients .clients_logo img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*----------+clients part end+---------*/
+
+/*----------+selecting part start+---------*/
+#choice {
+    padding: 100px 0px;
+}
+
+.choice_flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice_left img {
+    width: 100%;
+}
+
+.choice_left {
+    flex: 1;
+}
+
+.choice_right {
+    flex: 1;
+}
+
+/*----------+selecting part start+---------*/
