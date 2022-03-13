@@ -43,7 +43,9 @@ body {
     margin: 0px auto;
     padding: 30px;
 }
-
+section{
+    width: 100%;
+}
 /*----------+all common css end+---------*/
 
 /*----------+navbar css start+---------*/
