@@ -275,9 +275,6 @@ body {
     padding: 100px 0px;
     background-color: rgba(15, 24, 58, 0.93);
     background-image: url(../images/services_repeat_img.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .services_title {
@@ -300,7 +297,229 @@ body {
     font-weight: 400;
     line-height: 28px;
     padding-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+.services_item {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.services_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services_item img {
+    width: 40%;
+}
+
+.services_item h3 {
+    color: #282F4B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+
+.services_item p {
+    color: #555555;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.ser_gap {
+    margin: 60px 0px;
 }
 
 /*----------+services part start+---------*/
+
+/*----------+testimonial part start+---------*/
+#testimonials {
+    padding: 100px 0px;
+    background-image: url(../images/testiomonial_bg.png);
+    background-color: #fff;
+}
+
+.test_title {
+    text-align: center;
+}
+
+.test_title h1 {
+    color: #282F4B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    padding-bottom: 20px;
+}
+
+.test_title p {
+    color: #555555;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.test_item {
+    background-color: #fff;
+    padding: 50px;
+    border: 2px solid rgba(209, 209, 209, 0.50);
+}
+
+.test_profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.test_profile {
+    display: flex;
+    justify-content: center;
+}
+
+.test_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.test_item {
+    margin: 0px 15px;
+}
+
+.test_item p {
+    color: #555555;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.pro_text {
+    padding-left: 15px;
+}
+
+.pro_text h3 {
+    color: #EB8072;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+
+.test_profile {
+    padding-top: 20px;
+}
+
+.test_flex {
+    flex: 1;
+}
+
+.test_flex_two {
+    flex: 1;
+}
+
+.learn_more {
+    padding: 40px 0px;
+    background-color: #eb8072;
+}
+
+.learn_title_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.learn_title_text h2 {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.learn_title_text a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: all linear .4s;
+    border: 1px solid transparent;
+}
+
+.learn_title_text a:hover {
+    background-color: #eb8072;
+    border: 1px solid #fff;
+}
+
+/*----------+testimonial part start+---------*/
+
+/*----------+agency part start+---------*/
+#agency {
+    padding: 100px 0px;
+}
+
+.agency_flex {
+    display: flex;
+}
+
+.agency_left {
+    flex: 1;
+}
+
+.agency_right {
+    flex: 1;
+}
+
+.agency_right img {
+    width: 100%;
+}
+
+.agency_left h1 {
+    color: #282F4B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.agency_left p {
+    color: #555555;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 10px 0px;
+}
+
+.agency_up a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #eb8072;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: all linear .4s;
+    border: 1px solid transparent;
+}
+
+.agency_up a:hover {
+    background-color: #fff;
+    border: 1px solid #eb8072;
+    color: #eb8072;
+}
+
+/*----------+agency part end+---------*/
