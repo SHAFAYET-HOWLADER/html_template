@@ -523,3 +523,136 @@ body {
 }
 
 /*----------+agency part end+---------*/
+
+/*----------+team part start+---------*/
+#team {
+    padding: 100px 0px;
+    background-image: url(../images/services_repeat_img.png);
+    background-color: rgba(15, 24, 58, 0.93);
+}
+
+.team_title {
+    text-align: center;
+}
+
+.team_title h2 {
+    color: #eb8072;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    padding-bottom: 20px;
+}
+
+.team_title p {
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 50px;
+}
+
+.team_member img {
+    width: 100%;
+}
+
+.team_member {
+    text-align: center;
+    background-color: transparent;
+    margin: 0px 10px;
+    border: 2px solid transparent;
+    transition: all linear .4s;
+}
+
+.team_icon img {
+    width: 10%;
+    margin: 0px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.team_members {
+    display: flex;
+}
+
+.team_member {
+    flex: 1;
+}
+
+.team_icon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+
+}
+
+.team_member:hover {
+    border: 2px solid #eb8072;
+}
+
+.team_member h3 {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 0px;
+    line-height: 1.1em;
+}
+
+.team_member p {
+    color: rgba(255, 255, 255, 0.52);
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*----------+team part start+---------*/
+
+/*----------+newsletter part start+---------*/
+#newsletter {
+    padding: 50px 0px;
+}
+
+.newsletter_title {
+    text-align: center;
+}
+
+.newsletter_title h2 {
+    color: #282F4B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.newsletter_title p {
+    color: #555;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.input_area {
+    text-align: center;
+}
+
+.input_area input {
+    border: 1px solid #d1d1d1;
+    padding: 10px 40px;
+    margin: 0px 10px;
+    border-radius: 8px;
+}
+
+.input_area button {
+    background-color: #eb8072;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    color: #ffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+/*----------+newsletter part end+---------*/
