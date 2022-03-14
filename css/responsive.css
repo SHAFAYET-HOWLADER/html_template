@@ -1,0 +1,207 @@
+@media (min-width: 1100px) and (max-width: 14000px) {}
+
+@media (min-width: 900px) and (max-width: 1100px) {
+    .services_item {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .menu_right button {
+        margin: 10px 0px;
+    }
+
+    .icon_text {
+        padding: 0px 15px;
+    }
+
+    .choice_flex {
+        align-items: center;
+    }
+
+
+    .input_area button {
+        margin: 20px 0px;
+    }
+
+    .choice_right {
+        padding: 50px 10px;
+    }
+
+    .services_items {
+        flex-direction: column;
+    }
+
+    .test_items {
+        flex-direction: column;
+    }
+
+    .test_item {
+        margin: 50px 15px;
+    }
+
+    .learn_title_text {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+
+
+    .agency_right {
+        padding: 50px 0px;
+    }
+
+
+    .team_icon img {
+        width: 15%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+    .menu_right ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_items {
+        justify-content: space-between;
+    }
+
+    .menu_right button {
+        margin: 10px 0px;
+    }
+
+    .banner_flex {
+        flex-direction: column;
+    }
+
+    .icon_text {
+        padding: 0px 15px;
+    }
+
+    .banner_right {
+        padding-top: 50px;
+    }
+
+    #clients .clients_logo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .choice_flex {
+        flex-direction: column;
+    }
+
+    .input_area button {
+        margin: 20px 0px;
+    }
+
+    .choice_right {
+        padding: 50px 10px;
+    }
+
+    .services_items {
+        flex-direction: column;
+    }
+
+    .test_items {
+        flex-direction: column;
+    }
+
+    .test_item {
+        margin: 50px 15px;
+    }
+
+    .learn_title_text {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .agency_flex {
+        flex-direction: column;
+    }
+
+    .agency_right {
+        padding: 50px 0px;
+    }
+
+
+    .team_icon img {
+        width: 15%;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu_right ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_items {
+        justify-content: space-between;
+    }
+
+    .menu_right button {
+        margin: 10px 0px;
+    }
+
+    .banner_flex {
+        flex-direction: column;
+    }
+
+    .icon_text {
+        padding: 0px 15px;
+    }
+
+    .banner_right {
+        padding-top: 50px;
+    }
+
+    #clients .clients_logo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .choice_flex {
+        flex-direction: column;
+    }
+
+    .input_area button {
+        margin: 20px 0px;
+    }
+
+    .choice_right {
+        padding: 50px 10px;
+    }
+
+    .services_items {
+        flex-direction: column;
+    }
+
+    .test_items {
+        flex-direction: column;
+    }
+
+    .test_item {
+        margin: 50px 15px;
+    }
+
+    .learn_title_text {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .agency_flex {
+        flex-direction: column;
+    }
+
+    .agency_right {
+        padding: 50px 0px;
+    }
+
+    .footer_top_items {
+        flex-direction: column;
+    }
+
+    .team_icon img {
+        width: 15%;
+    }
+}

@@ -43,9 +43,11 @@ body {
     margin: 0px auto;
     padding: 30px;
 }
-section{
+
+section {
     width: 100%;
 }
+
 /*----------+all common css end+---------*/
 
 /*----------+navbar css start+---------*/
@@ -58,9 +60,9 @@ section{
     justify-content: space-between;
 }
 
-.menu_right ul li {
-    display: inline-block;
-    margin-left: 20px;
+.menu_right ul {
+    display: flex;
+    align-items: center;
 }
 
 .menu_right ul li a {
@@ -68,6 +70,7 @@ section{
     font-size: 14px;
     font-weight: 600;
     font-family: 'Nunito Sans', sans-serif;
+    margin: 0px 20px;
 }
 
 .menu_right ul li a:hover {
@@ -190,9 +193,9 @@ section{
 }
 
 #clients .clients_logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
 }
 
 #clients .clients_logo img {
@@ -747,18 +750,23 @@ section{
 /*----------+footer  part end+---------*/
 
 /*----------+copyRight  part start+---------*/
-#copyRight{
+#copyRight {
     padding: 20px;
     background-color: #1F253A;
 }
-.copy_content{
+
+.copy_content {
     text-align: center;
 }
-.copy_content span{
+
+.copy_content span {
     color: #FFFFFF;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
-/*----------+copyRight  part end+---------*/
 
+/* .toggle_icon img{
+    width: 5%;
+} */
+/*----------+copyRight  part end+---------*/
