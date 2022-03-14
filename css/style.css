@@ -51,8 +51,36 @@ section {
 /*----------+all common css end+---------*/
 
 /*----------+navbar css start+---------*/
+#navbar {
+    position: fixed;
+    left: 0;
+    right: 0px;
+    width: 100%;
+    z-index: 999;
+}
+
+.bg {
+    background-color: rgba(235, 128, 114, 0.774);
+    animation: smooth 1s;
+}
+
+@keyframes smooth {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
 .nav_logo a img {
     width: 50%;
+    height: 100%;
+}
+
+.nav_logo {
+    margin-bottom: 20px;
 }
 
 .nav_items {
@@ -766,7 +794,6 @@ section {
     font-weight: 500;
 }
 
-/* .toggle_icon img{
-    width: 5%;
-} */
+
+
 /*----------+copyRight  part end+---------*/
