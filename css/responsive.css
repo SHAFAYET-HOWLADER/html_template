@@ -7,6 +7,34 @@
 }
 
 @media (min-width: 700px) and (max-width: 900px) {
+    .toggle_img {
+        height: 200px;
+    }
+
+    .menu_right ul li a {
+        margin: 0px 8px;
+    }
+
+    #toggle_img {
+        width: 100%;
+        display: block;
+        transition: all linear .4s;
+        object-fit: cover;
+        z-index: 999;
+    }
+
+    #cross_img {
+        width: 100%;
+        display: none;
+        transition: all linear .4s;
+        object-fit: cover;
+        z-index: 999;
+    }
+
+    .menu_right {
+        display: none;
+    }
+
     .menu_right button {
         margin: 10px 0px;
     }
@@ -58,6 +86,28 @@
 }
 
 @media (min-width: 400px) and (max-width: 700px) {
+    #toggle_img {
+        width: 100%;
+        display: block;
+        transition: all linear .4s;
+        object-fit: cover;
+        z-index: 999;
+    }
+
+    #cross_img {
+        width: 100%;
+        display: none;
+        transition: all linear .4s;
+        object-fit: cover;
+        z-index: 999;
+    }
+
+    .menu_right {
+        display: none;
+        transition: all linear .4s;
+        z-index: -999;
+    }
+
     .menu_right ul {
         display: flex;
         flex-direction: column;
@@ -131,6 +181,27 @@
 }
 
 @media (max-width: 400px) {
+    #toggle_img {
+        width: 100%;
+        display: block;
+        transition: all linear .4s;
+        object-fit: cover;
+        z-index: 999;
+    }
+
+    #cross_img {
+        width: 100%;
+        display: none;
+        transition: all linear .4s;
+        object-fit: cover;
+        z-index: 999;
+    }
+
+    .menu_right {
+        display: none;
+        transition: all linear .4s;
+        z-index: -999;
+    }
 
     .menu_right ul {
         display: flex;

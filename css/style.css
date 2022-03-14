@@ -41,7 +41,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0px auto;
-    padding: 30px;
+    padding: 40px;
 }
 
 section {
@@ -51,6 +51,19 @@ section {
 /*----------+all common css end+---------*/
 
 /*----------+navbar css start+---------*/
+#toggle_img {
+    width: 20%;
+    display: none;
+    object-fit: cover;
+}
+
+#cross_img {
+    width: 20%;
+    display: none;
+    object-fit: cover;
+    z-index: 999;
+}
+
 #navbar {
     position: fixed;
     left: 0;
