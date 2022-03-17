@@ -1,15 +1,4 @@
-$(function () {
-    //    sticky header
-    $(window).scroll(function () {
-        var smooth = $(this).scrollTop();
-        if (smooth > 100) {
-            $('#navbar').addClass('bg');
-        } else {
-            $('#navbar').removeClass('bg')
-        }
-    })
-    //    sticky header
-});
+
 const getToggleBtn = ()=>{
    const img = document.getElementById("toggle_img");
    const img2 = document.getElementById("cross_img");

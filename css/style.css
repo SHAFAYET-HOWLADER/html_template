@@ -64,31 +64,10 @@ section {
     z-index: 999;
 }
 
-#navbar {
-    position: fixed;
-    left: 0;
-    right: 0px;
-    width: 100%;
-    z-index: 999;
-}
 
-.bg {
-    background-color: rgba(235, 128, 114, 0.774);
-    animation: smooth 1s;
-}
-
-@keyframes smooth {
-    from {
-        top: -100px;
-    }
-
-    to {
-        top: 0;
-    }
-}
 
 .nav_logo a img {
-    width: 50%;
+    width: 30%;
     height: 100%;
 }
 
@@ -97,6 +76,7 @@ section {
 }
 
 .nav_items {
+    height: 30px;
     display: flex;
     justify-content: space-between;
 }
